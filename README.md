@@ -14,3 +14,9 @@ INSTALL
 run the app:
 
 > $ DEBUG=b2mnews ./bin/www
+
+---
+
+Screenshot:
+
+![Screenshot](https://raw.githubusercontent.com/guerrerocarlos/node-news/master/Screenshot.png)
