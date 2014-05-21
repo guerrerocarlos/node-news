@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  each source in sources 
+    p
+      i These are the latest news from #{source}
+    each val in c[source]
+      div 
+        a(href="#{val.link}") #{val.title}
+        div #{val.description}
+    br
