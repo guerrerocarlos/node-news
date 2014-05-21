@@ -7,7 +7,9 @@ Node News Website with the following requirements:
 - Use github for source control
 
 install dependencies:
+
  $ cd node-news  && npm install
 
 run the app:
+
  $ DEBUG=b2mnews ./bin/www
