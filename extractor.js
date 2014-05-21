@@ -9,8 +9,6 @@ var ended = 0
 
 async.eachSeries(urls,function(url,callback){
 
-console.log("### getting: "+url)
-
 results[url] = []
 
 var req = request(url)
