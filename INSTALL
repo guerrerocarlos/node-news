@@ -1,6 +1,6 @@
 
 install dependencies:
-$ cd b2mnews && npm install
+$ cd node-news  && npm install
 
 run the app:
 $ DEBUG=b2mnews ./bin/www
